@@ -36,5 +36,11 @@ class Flightlist:
 
     def search(self,flightcode):
         flag = False
-        if flight.flight_code == flightcode:
-            
+        if Flightlist.flight_code == flightcode:
+            flag = True
+        else:
+            flag = False
+
+    if flag == True:
+    print('Found')
+else:
