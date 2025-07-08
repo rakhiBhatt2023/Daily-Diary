@@ -1,5 +1,5 @@
 from  task import flight
-from task1 import flightlist
+from task import flightlist
 
 flight1 = flight(carrier = 'air india',
                  flight_code = '6e340',
