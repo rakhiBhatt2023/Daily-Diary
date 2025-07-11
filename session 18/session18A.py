@@ -10,14 +10,15 @@
 import datetime
 
 class Visitor:
-    def __init__(self,serial_no, name, phone, address, whome_to_meet, purpose ):
+    def __init__(self,serial_no = None, name=None, phone=None, address=None, whome_to_meet=None, purpose=None ):
         self.serial_no = serial_no
         self.name  = name
         self.phone = phone
         self.address = address
         self.whome_to_meet = whome_to_meet
         self.purpose = purpose
-
+        
+        # Automatically pickup the date time stamp
         self.date_time_stamp = datetime.datetime.now()
     
     def visitor_details(self):
@@ -30,8 +31,8 @@ class Visitor:
 
     def __str__(self):
 
-        # This fun returns csv strin
-        # Format of excel
+        # This fun returns csv string
+        # Format of excel Basically
         return '{},{},{},{},{}\n'.format(self.serial_no, self.name, self.phone, self.address, self.whome_to_meet, self.purpose)
         
 
