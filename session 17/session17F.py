@@ -8,7 +8,7 @@ quote = input('Enter a quote:')
 
 while quote != 'quit':
     file.write(quote)
-    file.write('\n')             # for adding a new file
+    file.write('\n')                        # for adding a new line after quote and before new  quote entering
     print('-------Quote saved-------')
     quote = input('Enter a quote:')
  
