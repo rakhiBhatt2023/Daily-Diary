@@ -25,7 +25,7 @@ class DoctorsApp:
 
             print('Main Menu: ')
             print('1: Patient')
-            print('2: Consulatation')
+            print('2: Consultation')
             print('0: Quit')
             choice = int(input('Enter Your Choice: '))
             

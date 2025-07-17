@@ -1,4 +1,4 @@
-from session20A import DoctorsApp
+from session21C import DoctorsApp
 # Either execute directly without main(student life)
 # app = Doctorsapp
 # app.show_main_menu()
@@ -11,5 +11,5 @@ def main():
     app.show_main_menu()
 
 
-if __name__ =='__main__':
+if __name__ == '__main__':
     main()
